@@ -1,0 +1,40 @@
+<app-body-navbar></app-body-navbar>
+<div class="container py-3">
+  <p class="text-secondary">الصفحة الرئيسيه/عرض جميع العقود/بيانات العقد</p>
+  <app-contract-data-nav></app-contract-data-nav>
+  <p style="color: var(--color-yellow)">
+    <img src="assets/task/status-info-outline-svgrepo-com 1.svg" alt="" /> حالة
+    العقد: <span class="text-black">مفتوح</span>
+  </p>
+  <div class="main-body">
+    <app-contract-taps></app-contract-taps>
+    <div class="data p-2 rounded">
+      <app-contract-buttons></app-contract-buttons>
+      <div class="row py-2">
+        <div class="col-md">
+          <app-contract-table></app-contract-table>
+          <app-contract-add-new></app-contract-add-new>
+          <div class="buttons-data bg-white p-3">
+            <div class="d-flex justify-content-end">
+              <span>المتبقي <span style="color: var(--color-blue)">300 ر.س</span></span>
+              <span class="ms-5"
+                >إجمالي <span style="color: var(--color-text-green)">570 ر.س</span></span
+              >
+            </div>
+          </div>
+          <app-contract-employee-data></app-contract-employee-data>
+        </div>
+        <div
+          class="col-4 bg-white p-3 ms-3 rounded-1 h-75"
+          style="box-shadow: 3px 3px 3px #f3f0e7"
+        >
+          <button type="button" class="btn btn-request-outline float-start">
+            <img src="assets/task/fluent_print-32-regular.svg" alt="" />
+            طباعة الفاتورة
+          </button>
+          <app-contract-side-list></app-contract-side-list>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

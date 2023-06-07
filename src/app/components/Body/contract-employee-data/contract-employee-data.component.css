@@ -1,0 +1,13 @@
+input[type="text"] {
+  box-shadow: none;
+  background-color: var(--color-disabled);
+}
+
+.d-inline-block.copy {
+  text-decoration: none;
+  position: relative;
+  left: 55px;
+  color: var(--color-yellow);
+  background-color: var(--color-text-secondary);
+  padding: 5px;
+}

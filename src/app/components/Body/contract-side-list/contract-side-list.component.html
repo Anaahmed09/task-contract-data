@@ -1,0 +1,205 @@
+<ul class="list-group w-100 p-0 side-data">
+  <li
+    class="list-group-item d-flex justify-content-between mb-3 rounded-1"
+    style="cursor: pointer"
+    (click)="showDetails($event)"
+  >
+    بيانات عامة
+    <img src="assets/task/ep_arrow-down.svg" alt="" />
+  </li>
+  <div class="row d-none">
+    <span class="col-6 py-1" style="color: var(--color-dark)">يومي قبل الخصم</span>
+    <span class="col-6">
+      <span class="float-start">250 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">يومي بعد الخصم</span>
+    <span class="col-6">
+      <span class="float-start">187 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">شهري قبل الخصم</span>
+    <span class="col-6">
+      <span class="float-start">600 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">شهري بعد الخصم</span>
+    <span class="col-6">
+      <span class="float-start">5.500 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">اسبوعي</span>
+    <span class="col-6">
+      <span class="float-start">157 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">كيلو زيادة</span>
+    <span class="col-6">
+      <span class="float-start">0.50 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">ساعة زيادة</span>
+    <span class="col-6">
+      <span class="float-start">15.58 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">كم مسموح بها</span>
+    <span class="col-6">
+      <span class="float-start">250 كم</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">ساعات مسموح بها</span>
+    <span class="col-6">
+      <span class="float-start">2 ساعة</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">عدد الساعات في اليوم</span>
+    <span class="col-6 mb-4">
+      <span class="float-start">5 ساعة</span>
+    </span>
+  </div>
+  <li
+    class="list-group-item d-flex justify-content-between mb-3 rounded-1"
+    style="cursor: pointer"
+    (click)="showDetails($event)"
+  >
+    تكاليف
+    <img src="assets/task/ep_arrow-down.svg" alt="" />
+  </li>
+  <div class="row d-none">
+    <span class="col-6 py-1" style="color: var(--color-dark)">تفويض نم</span>
+    <span class="col-6">
+      <span class="float-start">5 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">تأمين مميز</span>
+    <span class="col-6">
+      <span class="float-start">25 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">تكلفة البنزبن</span>
+    <span class="col-6">
+      <span class="float-start">0 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">تكلفة شحن</span>
+    <span class="col-6">
+      <span class="float-start">5 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">الضريبة المضافة</span>
+    <span class="col-6">
+      <span class="float-start">5 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">تكلفة استبدال سيارة</span>
+    <span class="col-6">
+      <span class="float-start">5 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">اجمالي قيمة الإستبدال</span>
+    <span class="col-6">
+      <span class="float-start">300 ر.س</span>
+    </span>
+    <span class="col-12 py-1" style="color: var(--color-text-secondary)">تكلفة إضافية</span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">ملاحظات بدون ضريبة</span>
+    <span class="col-6">
+      <span class="float-start">0 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">ملاحظات شاملة ضريبة</span>
+    <span class="col-6 mb-4">
+      <span class="float-start">60 ر.س</span>
+    </span>
+  </div>
+  <li
+    class="list-group-item d-flex justify-content-between mb-3 rounded-1"
+    style="cursor: pointer"
+    (click)="showDetails($event)"
+  >
+    فاتورة
+    <img src="assets/task/ep_arrow-down.svg" alt="" />
+  </li>
+  <div class="row d-none">
+    <span class="col-6 py-1" style="color: var(--color-dark)">حالة السداد</span>
+    <span class="col-6 btn-cost" style="direction: ltr"
+      ><span> محلي </span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">رصيد النقاط</span>
+    <span class="col-6" style="direction: ltr">5700</span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">طريقة السداد</span>
+    <span class="col-6 btn-cost mb-4" style="direction: ltr"
+      ><span> شبكة <img src="assets/task/Vector-2.svg" alt="" /> </span>
+    </span>
+  </div>
+  <li
+    class="list-group-item d-flex justify-content-between mb-3 rounded-1"
+    style="cursor: pointer"
+    (click)="showDetails($event)"
+  >
+    ملخص للفاتورة
+    <img src="assets/task/ep_arrow-down.svg" alt="" />
+  </li>
+  <div class="row d-none">
+    <span class="col-6 py-1" style="color: var(--color-dark)">سعر السيارة</span>
+    <span class="col-6">
+      <span class="float-start">300 ر.س</span>
+    </span>
+    <span class="col-12 py-1" style="color: var(--color-text-secondary)">خصومات</span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">خصم اداري</span>
+    <span class="col-6">
+      <span class="float-start">0 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">قيمة الخصم-نقاط</span>
+    <span class="col-6">
+      <span class="float-start">0 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">قيمة الخصم-كود خصم</span>
+    <span class="col-6">
+      <span class="float-start">25 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">الخصومات الكلية</span>
+    <span class="col-6">
+      <span class="float-start">300 ر.س</span>
+    </span>
+    <span class="col-12 row-between px-4 my-3"></span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">السعر بعد الخصم</span>
+    <span class="col-6">
+      <span class="float-start">275 ر.س</span>
+    </span>
+    <span class="col-12 py-1" style="color: var(--color-text-secondary)">سداد ودفعات</span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">امانات مخالفات</span>
+    <span class="col-6">
+      <span class="float-start">0 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">رصيد الأمانات</span>
+    <span class="col-6 mb-3">
+      <span class="float-start">60 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">إيراد يومي</span>
+    <span class="col-6">
+      <span class="float-start">275 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">إيراد شهري</span>
+    <span class="col-6">
+      <span class="float-start">275 ر.س</span>
+    </span>
+    <span class="col-6 py-1" style="color: var(--color-dark)">إيراد اسبوعي</span>
+    <span class="col-6">
+      <span class="float-start">275 ر.س</span>
+    </span>
+    <span class="col-12 row-between"></span>
+    <div
+      class="col-11 py-3 px-4 m-auto mt-3 rounded-1"
+      style="background-color: var(--color-main-background)"
+    >
+      <p class="p-0">
+        المبلغ الكلي
+        <span class="ms-auto float-start" style="color: var(--color-text-secondary)">275 ر.س</span>
+        <span class="col-12 row-between"></span>
+      </p>
+      <div class="row">
+        <span class="col-6 py-1" style="color: var(--color-dark)"
+          >السعر الكلي المدفوع</span
+        >
+        <span class="col-6 float-start"
+          ><span class="float-start">275 ر.س</span></span
+        >
+        <span class="col-6 py-1" style="color: var(--color-dark)"
+          >السعر الكلي المتبقي</span
+        >
+        <span class="col-6">
+          <span class="float-start">275 ر.س</span>
+        </span>
+        <span class="col-6 py-1" style="color: var(--color-dark)">الحد الإئتماني</span>
+        <span class="col-6 mb-4">
+          <span class="float-start">-5.6 ر.س </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</ul>

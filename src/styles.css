@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-yellow: #d6a218;
+  --color-light-yellow: #f8d65e;
+  --color-green: #3d5653;
+  --color-light-green: #48746f;
+  --color-red: #ff4b4b;
+  --color-purple: #5458f7;
+  --color-cyan: #62d2ff;
+  --color-header: #e0e0ff;
+  --color-disabled: #f0f0f0;
+  --color-main-background: #f1f1f1;
+  --color-text-secondary: #dedede;
+  --color-lime: #10ab4e;
+  --color-blue: #2772e2;
+  --color-text-green: #3bb556;
+  --color-dark: #7d7d7d;
+}
+.rotate {
+  rotate: 180deg;
+}
+
+.rotate-90 {
+  rotate: -90deg;
+}

@@ -1,0 +1,8 @@
+.btn-create-new {
+  background-color: var(--color-yellow);
+  color: var(--color-main-background);
+}
+.btn-request-outline {
+  outline: 1px solid var(--color-yellow);
+  color: var(--color-yellow);
+}

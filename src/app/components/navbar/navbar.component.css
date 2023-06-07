@@ -1,0 +1,24 @@
+.navbar {
+  height: 52px;
+  background-color: var(--color-header);
+}
+
+div span {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 20px;
+}
+input[type="text"] {
+  padding-left: 40px;
+  direction: ltr;
+  box-shadow: none;
+  background-color: var(--color-disabled);
+}
+svg {
+  position: absolute;
+  width: 12px;
+  height: 25px;
+  left: 245px;
+}

@@ -1,0 +1,19 @@
+.buttons-data {
+  direction: ltr;
+}
+.buttons-data button {
+  font-size: 14px;
+}
+.btn-create-new {
+  background-color: var(--color-yellow);
+  color: var(--color-main-background);
+}
+.btn-request-outline {
+  outline: 1px solid var(--color-yellow);
+  color: var(--color-yellow);
+}
+.buttons-data button:nth-child(4),
+.col-4 .btn-request-outline {
+  color: var(--color-lime);
+  outline: 1px solid var(--color-lime);
+}

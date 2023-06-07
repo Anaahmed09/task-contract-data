@@ -1,0 +1,9 @@
+.selection img {
+  position: absolute;
+  top: 30%;
+  left: 28%;
+}
+.btn-create-new {
+  background-color: var(--color-yellow);
+  color: var(--color-main-background);
+}

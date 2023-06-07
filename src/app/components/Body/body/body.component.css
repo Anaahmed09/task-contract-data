@@ -1,0 +1,30 @@
+.btn-create-new {
+  background-color: var(--color-yellow);
+  color: var(--color-main-background);
+}
+.btn-request-outline {
+  outline: 1px solid var(--color-yellow);
+  color: var(--color-yellow);
+}
+.data {
+  background-color: var(--color-main-background);
+  border: 1px solid var(--color-text-secondary);
+}
+.buttons-data {
+  direction: ltr;
+}
+.buttons-data button {
+  font-size: 14px;
+}
+.buttons-data button:nth-child(4),
+.col-4 .btn-request-outline {
+  color: var(--color-lime);
+  outline: 1px solid var(--color-lime);
+}
+
+.buttons-data span span {
+  margin-right: 10px;
+  border-radius: 4px;
+  padding: 8px 10px 8px 50px;
+  background-color: var(--color-text-secondary);
+}

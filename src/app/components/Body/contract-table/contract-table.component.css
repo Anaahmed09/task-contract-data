@@ -1,0 +1,21 @@
+.table thead {
+  --bs-table-bg: var(--color-green);
+}
+table tr {
+  border-bottom: 5px solid var(--color-main-background);
+}
+table tr th,
+table tr td {
+  padding: 20px;
+}
+
+.print-data {
+  border: 1px solid var(--color-yellow);
+  border-radius: 4px;
+}
+
+.names + p {
+  background-color: var(--color-main-background);
+  padding: 5px;
+  color: var(--color-text-secondary);
+}

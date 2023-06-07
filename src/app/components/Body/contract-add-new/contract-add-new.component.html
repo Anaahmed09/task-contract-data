@@ -1,0 +1,98 @@
+<div class="bg-white py-4 px-3 row m-0 my-3 w-100 d-none" id="formNewData">
+  <div class="col-6">
+    <input
+      type="text"
+      class="form-control w-75 bg-white"
+      placeholder="17-12-2022"
+    />
+    <div class="position-relative selection">
+      <select class="form-control w-75 bg-white mt-4">
+        <option selected>اختر نوع الدفعة</option>
+        <option value="دفعة مقدمة">دفعة مقدمة</option>
+        <option value="تحت الحساب">تحت الحساب</option>
+        <option value="باقي الإيجار">باقي الإيجار</option>
+        <option value="أمانات العميل">أمانات العميل</option>
+        <option value="مكتب خارجي">مكتب خارجي</option>
+        <option value="فرع خارجي">فرع خارجي</option>
+      </select>
+      <img src="assets/task/ep_arrow-down-2.svg" alt="" />
+    </div>
+    <div class="position-relative selection">
+      <select class="form-control w-75 bg-white mt-4">
+        <option selected>اختر وصف السداد</option>
+        <option value="إيجار">إيجار</option>
+        <option value="مخالفات">مخالفات</option>
+        <option value="سنوات سابقة">سنوات سابقة</option>
+        <option value="مطالبة قديمة">مطالبة قديمة</option>
+      </select>
+      <img src="assets/task/ep_arrow-down-2.svg" alt="" />
+    </div>
+    <div class="position-relative selection">
+      <select class="form-control w-75 bg-white mt-4">
+        <option selected>اختر نوع السداد</option>
+        <option value="شيكات">شيكات</option>
+        <option value="نقدية">نقدية</option>
+        <option value="نقاط">نقاط</option>
+      </select>
+      <img src="assets/task/ep_arrow-down-2.svg" alt="" />
+    </div>
+    <input
+      type="text"
+      class="form-control w-75 bg-white mt-4"
+      placeholder="0.0 ر.س"
+    />
+  </div>
+  <div class="col-6">
+    <div class="position-relative selection">
+      <select class="form-control w-75 bg-white">
+        <option selected>إختر فرع استلام الدفعة</option>
+        <option value="المكتب الرئيسي">المكتب الرئيسي</option>
+        <option value="مكتب دوار الكويت">مكتب دوار الكويت</option>
+        <option value="فندق الكروان بلازا">فندق الكروان بلازا</option>
+        <option value="فندق الانتركونتينتال">فندق الانتركونتينتال</option>
+        <option value="فندق الماريوت">فندق الماريوت</option>
+        <option value="مطار الملك خالد الدولي">مطار الملك خالد الدولي</option>
+        <option value="مكتب الشفا">مكتب الشفا</option>
+        <option value="مكتب العليا العام">مكتب العليا العام</option>
+      </select>
+      <img src="assets/task/ep_arrow-down-2.svg" alt="" />
+    </div>
+    <div class="position-relative selection">
+      <select class="form-control w-75 bg-white mt-4">
+        <option selected>اختر نوع العملية</option>
+        <option value="شبكة">شبكة</option>
+        <option value="فيزا">فيزا</option>
+        <option value="ماستر">ماستر</option>
+        <option value="أميريكان">أميريكان</option>
+        <option value="شيكات">شيكات</option>
+        <option value="حوالة">حوالة</option>
+      </select>
+      <img src="assets/task/ep_arrow-down-2.svg" alt="" />
+    </div>
+    <input
+      type="text"
+      class="form-control w-75 bg-white mt-4"
+      placeholder="63906533"
+    />
+    <input
+      type="text"
+      class="form-control w-75 bg-white mt-4"
+      placeholder="1476"
+    />
+    <input
+      type="text"
+      class="form-control w-75 bg-white mt-4"
+      placeholder="501969"
+    />
+  </div>
+</div>
+<div class="d-flex justify-content-end">
+  <button
+    type="button"
+    class="btn btn-create-new mt-4 mb-2 position-relative"
+    (click)="showForm($event)"
+  >
+    <img src="assets/task/ant-design_plus-outlined.svg" alt="" />
+    إضافة دفعة جديدة
+  </button>
+</div>
