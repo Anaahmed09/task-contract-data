@@ -22,3 +22,8 @@
 .rotate-90 {
   rotate: -90deg;
 }
+@media (max-width: 767px) {
+  button {
+    font-size: 13px;
+  }
+}

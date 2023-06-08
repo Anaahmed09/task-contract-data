@@ -1,3 +1,8 @@
+@media (max-width: 767px) {
+  .text-secondary {
+    font-size: 13px;
+  }
+}
 .btn-create-new {
   background-color: var(--color-yellow);
   color: var(--color-main-background);
@@ -16,15 +21,44 @@
 .buttons-data button {
   font-size: 14px;
 }
-.buttons-data button:nth-child(4),
-.col-4 .btn-request-outline {
-  color: var(--color-lime);
-  outline: 1px solid var(--color-lime);
-}
 
 .buttons-data span span {
   margin-right: 10px;
   border-radius: 4px;
   padding: 8px 10px 8px 50px;
   background-color: var(--color-text-secondary);
+}
+@media (max-width: 767px) {
+  .buttons-data {
+    font-size: 13px;
+  }
+  .buttons-data span span {
+    padding: 5px 5px 5px 20px;
+  }
+}
+
+.buttons-data button:nth-child(4),
+.col-4 .btn-request-outline {
+  color: var(--color-lime);
+  outline: 1px solid var(--color-lime);
+}
+@media (max-width: 1015px) {
+  .col-4 {
+    width: 96.5%;
+    margin: auto;
+    margin-top: 14px;
+    box-shadow: none;
+  }
+}
+@media (max-width: 767px) {
+  .col-4 button{
+    font-size: 13px;
+  }
+  .col-4 {
+    font-size: 13px;
+    width: 92%;
+    margin: auto;
+    margin-top: 14px;
+    box-shadow: none;
+  }
 }

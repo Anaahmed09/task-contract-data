@@ -22,3 +22,9 @@ svg {
   height: 25px;
   left: 245px;
 }
+
+@media (max-width: 767px) {
+  svg {
+    left: 200px;
+  }
+}

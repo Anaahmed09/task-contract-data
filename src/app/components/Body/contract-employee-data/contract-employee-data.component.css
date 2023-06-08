@@ -1,4 +1,15 @@
+.employee-data {
+  width: 64.5%;
+}
+
+@media (max-width: 1015px) {
+  .employee-data {
+    width: 100%;
+  }
+}
+
 input[type="text"] {
+  width: 50%;
   box-shadow: none;
   background-color: var(--color-disabled);
 }
@@ -10,4 +21,17 @@ input[type="text"] {
   color: var(--color-yellow);
   background-color: var(--color-text-secondary);
   padding: 5px;
+}
+@media (max-width: 767px) {
+  input[type="text"] {
+    width: 100%;
+  }
+  * {
+    font-size: 13px;
+  }
+  .d-inline-block.copy {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 }

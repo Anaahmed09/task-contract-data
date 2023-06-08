@@ -6,3 +6,9 @@
   outline: 1px solid var(--color-yellow);
   color: var(--color-yellow);
 }
+@media (max-width: 767px) {
+  button {
+    font-size: 13px;
+    padding: 5px;
+  }
+}

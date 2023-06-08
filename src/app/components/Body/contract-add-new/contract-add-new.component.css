@@ -7,3 +7,29 @@
   background-color: var(--color-yellow);
   color: var(--color-main-background);
 }
+input,
+select {
+  width: 75%;
+}
+select,
+input::placeholder {
+  color: var(--color-text-secondary);
+}
+@media (max-width: 767px) {
+  * {
+    font-size: 11px;
+  }
+  .d-flex.justify-content-sm-end {
+    justify-content: center;
+  }
+  button {
+    font-size: 13px;
+  }
+  input,
+  select {
+    width: 100%;
+  }
+  .selection img {
+    left: 2%;
+  }
+}

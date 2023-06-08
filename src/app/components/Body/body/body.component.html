@@ -1,5 +1,5 @@
 <app-body-navbar></app-body-navbar>
-<div class="container py-3">
+<div class="container-md py-3">
   <p class="text-secondary">الصفحة الرئيسيه/عرض جميع العقود/بيانات العقد</p>
   <app-contract-data-nav></app-contract-data-nav>
   <p style="color: var(--color-yellow)">
@@ -16,13 +16,18 @@
           <app-contract-add-new></app-contract-add-new>
           <div class="buttons-data bg-white p-3">
             <div class="d-flex justify-content-end">
-              <span>المتبقي <span style="color: var(--color-blue)">300 ر.س</span></span>
+              <span
+                >المتبقي
+                <span style="color: var(--color-blue)">300 ر.س</span></span
+              >
               <span class="ms-5"
-                >إجمالي <span style="color: var(--color-text-green)">570 ر.س</span></span
+                >إجمالي
+                <span style="color: var(--color-text-green)"
+                  >570 ر.س</span
+                ></span
               >
             </div>
           </div>
-          <app-contract-employee-data></app-contract-employee-data>
         </div>
         <div
           class="col-4 bg-white p-3 ms-3 rounded-1 h-75"
@@ -35,6 +40,7 @@
           <app-contract-side-list></app-contract-side-list>
         </div>
       </div>
+      <app-contract-employee-data></app-contract-employee-data>
     </div>
   </div>
 </div>

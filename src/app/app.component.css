@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+  .d-xs-none{
+    display: none;
+  }
+  app-sidebar {
+    position: absolute;
+    z-index: 1000;
+    height: 195.6%;
+  }
+}

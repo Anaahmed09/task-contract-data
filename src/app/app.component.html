@@ -1,5 +1,8 @@
 <app-navbar></app-navbar>
 <div class="d-flex">
-  <app-sidebar></app-sidebar>
-  <app-body style="width: 100%;"></app-body>
+  <app-sidebar
+    class="d-xs-none"
+    (eventSendSidebar)="getSidebar($event)"
+  ></app-sidebar>
+  <app-body style="width: 100%"></app-body>
 </div>
