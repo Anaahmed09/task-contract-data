@@ -25,15 +25,3 @@ ul span {
   height: 1px;
   background-color: var(--color-text-secondary);
 }
-
-/* @media (max-width: 767px) {
-  * {
-    font-size: 13px;
-  }
-  ul {
-    width: 92%;
-    margin: auto;
-    margin-top: 14px;
-    box-shadow: none;
-  }
-} */

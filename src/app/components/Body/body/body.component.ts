@@ -6,5 +6,4 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent {
-  @Input() sidebar: HTMLDivElement | any;
 }
